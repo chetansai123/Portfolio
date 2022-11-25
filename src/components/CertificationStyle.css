@@ -1,0 +1,81 @@
+.space{
+    width: 100%;
+    padding:3rem 0;
+}
+.cert-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: rgba(46, 62, 63, 0.742);
+    grid-gap: 30px;
+
+}
+.cert-card div{
+    align-items: center;
+}
+.heading{
+    padding: 2rem 0  0;
+}
+.head-text{
+text-align: center;
+font-weight: 300;
+padding-bottom: 2rem;
+}
+.cert-card img{
+    width: 180%;
+}
+.cert-title{
+    padding: 1rem 0.5rem;
+    text-align: center;
+    /* background-color: pink; */
+    width: 200%;
+}
+.cert-text{
+    padding: 0.5rem 0.5rem;
+    font-weight: 300;
+    text-align: center;
+    /* background-color:powderblue; */
+    width: 200%;
+    font-size: 1rem;
+}
+.cert-card.btn-light{
+    width: 60%;
+    align-items: center;
+    
+}
+
+@media screen and (max-width:800px) {
+    .cert-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem 2rem; 
+    }
+    .cert-card div{
+        margin-left: 0rem;
+    }
+    .cert-card img{
+        width: 100%;
+    }
+    .cert-title{
+        padding: 1rem 0.5rem;
+        text-align: center;
+        /* background-color: pink; */
+        width: 100%;
+    }
+    .cert-text{
+        padding: 0.5rem 0.5rem;
+        font-weight: 300;
+        text-align: center;
+        /* background-color:powderblue; */
+        width: 100%;
+        font-size: 1rem;
+    }
+    .btn-light{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+}

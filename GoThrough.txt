@@ -1,0 +1,33 @@
+First we create a react app using npx create-react-app command.Then remove some unnecessary files to make 
+the code clean. Then we have to install react-router-dom module to make Routes. Routes are like pages in website
+For Getting BrowserRouter,etc ones we install it using command npm i react-router-dom@latest
+Then install react-icons module to use react icons for various things like social media etc through command
+npm i react-icons@latest.
+Then we create a pages folder to create routes that is they are made using BrowserRouter,Routes and Every route is
+ specifed as a page.Where we establish the moving to those pages using Links from BrowserRouter.
+ Then we make some css styling to make them appear good.
+ * For responsive designing we use @media screen and (max-width:1040px) whixh is used to make changes in css when the screen dimensions
+ are allowed up to 1040 px i.e basically it is used to style when webpage is seen in phones,tabs etc to make it responsive.
+ we make click variable to be clicking the icon among FaBars and FaTimes making the state change by using setClick function.
+ we make navbar to be hidden initially and when Fabars is clicked the menu items will appear and by clicking the FaTimes they disappear
+ again. These two icons are imported from 'react-icons/fa' where fa is font awesome
+ We make different styling in normal css and media queries because we dont want menu icon in laptop devices it is only meant for mobile
+ to make it responsive. These styling are made in nav.css because it is used for styling the navbar.
+ Then we use FaBars and FaTimes which are react icons which are used for using icons for navbar in responsive designing.
+
+
+
+
+
+
+
+
+
+
+
+
+ {
+    display:flex will helps in alligning the contents in a line. rather than horizontal spreading
+    justify-content:space-between will make the space between the diffeerent components of elements
+    z-index for showing of img on text based on value 0 or -1 i.e to overshadow text or back of text
+ }

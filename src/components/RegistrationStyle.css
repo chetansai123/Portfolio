@@ -1,0 +1,62 @@
+.Registration{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+}
+
+.forms{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0.5rem;
+    align-items: center;
+    
+}
+.but{
+    margin-top: 1rem;
+    /* background-color: indianred; */
+    display: flex;
+    width: 70%;
+    height: 10vh;
+}
+.btn2{
+    width: 60%;
+    margin-left: 2rem;
+}
+.btn1{
+    align-items: left;
+}
+.Registration h1{
+    text-align: center;
+    padding: 1rem 0rem;
+}
+.forms input{
+    padding: 0.6rem 0.2rem;
+    width: 60%;
+    border-color: rgb(255,255,255,0.1);
+    background-color: rgb(255,255,255,0.1);
+    margin-top: 0.8rem;
+}
+button{
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+@media screen and (max-width:700px) {
+    .but{
+        margin-top: 0.4rem;
+        /* background-color: indianred; */
+        display: flex;
+        width: 70%;
+        height: 20vh;
+    }
+    .btn2{
+        width: 60%;
+        margin-left: 2rem;
+    }
+    .btn1{
+        align-items: left;
+    }
+    
+}
