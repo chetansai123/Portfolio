@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83ff6396.css",
+    "main.js": "/static/js/main.9fce3524.js",
+    "static/media/key.jpg": "/static/media/key.7ec7cd8f630c51f496c9.jpg",
+    "static/media/acCert.png": "/static/media/acCert.1c34f38e7e468731882d.png",
+    "static/media/jpCert.png": "/static/media/jpCert.195445048c36f53da781.png",
+    "static/media/geeks.jpg": "/static/media/geeks.ef40129839206576c11a.jpg",
+    "static/media/guess.png": "/static/media/guess.fed760dfa572d0ac978b.png",
+    "static/media/federsee.jpg": "/static/media/federsee.f78b100bd8089eb93bb1.jpg",
+    "static/media/DSABootcampCertificate (1).png": "/static/media/DSABootcampCertificate (1).b9d308290db4705d2679.png",
+    "static/media/beans.jpeg": "/static/media/beans.a2cdff01c8c2a1439b9c.jpeg",
+    "static/media/about.avif": "/static/media/about.7ec0789580990f5a5f06.avif",
+    "static/media/darklap.jpeg": "/static/media/darklap.371415eba3ba823df805.jpeg",
+    "static/media/lap.webp": "/static/media/lap.c2955eacde0809b24c49.webp",
+    "static/media/pro.webp": "/static/media/pro.564624e15611d21a63a0.webp",
+    "index.html": "/index.html",
+    "main.83ff6396.css.map": "/static/css/main.83ff6396.css.map",
+    "main.9fce3524.js.map": "/static/js/main.9fce3524.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ff6396.css",
+    "static/js/main.9fce3524.js"
+  ]
+}
