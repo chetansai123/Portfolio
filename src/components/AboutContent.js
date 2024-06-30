@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutPic from '../images/about.avif'
+import Myself from '../images/myself.jpg'
 import { Link } from 'react-router-dom'
 import './AboutContentStyle.css'
 const AboutContent = () => {
@@ -21,7 +21,9 @@ const AboutContent = () => {
                 </p>
             </div>
             <div className='right'>
-                <img className='pic' src={AboutPic} alt='image' />
+                <div className='me'>
+                    <img className='pic' src={Myself} alt='chetan' />
+                </div>
                 <Link to='/contact' >
                     <button className='btn-light'>
                         CONTACT ME

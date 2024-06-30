@@ -5,11 +5,11 @@
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 40px;
   padding: 4rem 1rem;
-  background-color: rgba(46, 62, 63, 0.742);
+  background-color: rgba(10, 11, 11, 0.742);
 }
 
 .project-card {
-  background-color: cadetblue;
+  background-color: rgba(31, 35, 40, 0.735);
   width: 100%;
   max-width: 100%;
   padding: 1rem;
