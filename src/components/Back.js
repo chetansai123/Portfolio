@@ -10,17 +10,17 @@ import { Link } from 'react-router-dom'
 const Back = () => {
   return (
     <div className='back'>
-        <div className='mask'>
-            <img className='geeks'  src={darkLap} alt="background"></img>
+      <div className='mask'>
+        <img className='geeks' src={darkLap} alt="background"></img>
+      </div>
+      <div className='context'>
+        <p>MERN stack </p>
+        <h1>Full Stack Developer</h1>
+        <div >
+          <Link to='/projects' className='btn btn-light'>Projects</Link>
+          <Link to='/contact' className='btn '>Contact Me</Link>
         </div>
-        <div className='context'>
-            <p>I am an Undergraduate </p>
-            <h1>React Developer</h1>
-            <div > 
-                <Link to='/projects' className='btn btn-light'>Projects</Link>
-                <Link to='/contact' className='btn '>Contact</Link>
-            </div>
-        </div>
+      </div>
     </div>
   )
 }

@@ -7,12 +7,12 @@ import WorkMain from '../components/WorkMain'
 
 const Project = () => {
     return (
-    <div>
-        <NavBar />
-        <Back2 heading="PROJECTS" text="Some of my recent works here"/>
-        <WorkMain />
-        <Footer />
-    </div>
+        <div>
+            <NavBar />
+            <Back2 heading="PROJECTS" text="Some of my recent works here" />
+            <WorkMain />
+            <Footer />
+        </div>
     )
 }
 

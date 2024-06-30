@@ -1,34 +1,43 @@
 import React from 'react'
 import './FooterStyle.css'
-import {FaHome,FaPhone,FaMailBulk, FaFacebook, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import { FaHome, FaPhone, FaMailBulk, FaGithub, FaCode, FaLinkedin } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer-container'>
                 <div className='left'>
-                <div className='location'>
-                    <FaHome size={20} style={{color:'white'}}/>
-                    <p>Hyderabad,India</p>
-                </div>
-                <div className='phone'><h4>
-                <FaPhone size={20} style={{color:'white'}}/>
-                +919381827307
-                </h4>
-                </div>
-                <div className='location'>
-                    <FaMailBulk size={20} style={{color:'white'}}/>
-                    <p>chetansaissmb123@gmail.com</p>
-                </div>
+                    <div className='location' >
+                        <FaHome size={20} style={{ color: 'white' }} />
+                        <p>Hyderabad,India</p>
+                    </div>
+                    <div className='phone'>
+                        <FaPhone size={20} style={{ color: 'white' }} />
+                        <p>+919381827307</p>
+                    </div>
+                    <div className='email'>
+                        <FaMailBulk size={20} style={{ color: 'white' }} />
+                        <p>chetansai.official@gmail.com</p>
+                    </div>
                 </div>
                 <div className='right'>
                     <h4>About Me</h4>
-                    <p>This is me Chetan Sai,a Computer Science UnderGraduate persuing Final Year in BTECH.
-                        I enjoy coding.
+                    <p className='personal'>I enjoy exploring new technologies, listening to music 🎸.
+                        I also enjoy spending time in peaceful environments and natural landscapes.
+                        I'm passionate about deepening my knowledge in data structures and algorithms (DSA).
                     </p>
                     <div className='socials'>
-                    <FaFacebook size={20} style={{color:'white'}}/>
-                    <FaTwitter size={20} style={{color:'white'}}/>
-                    <FaLinkedin size={20} style={{color:'white'}}/>
+                        <a href='https://github.com/chetansai123' target='_blank' rel='noopener noreferrer'>
+                            <FaGithub size={20} style={{ color: 'white' }} />
+                        </a>
+
+                        <a href='https://www.geeksforgeeks.org/user/chetansaissmb123/' target='_blank' rel='noopener noreferrer'>
+                            <FaCode size={20} style={{ color: 'white' }} />
+                        </a>
+                        <a href="https://www.linkedin.com/in/chetan-sai-96445a227/" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin size={20} style={{ color: 'white' }} />
+                        </a>
+
                     </div>
                 </div>
             </div>
