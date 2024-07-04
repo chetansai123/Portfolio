@@ -24,11 +24,12 @@
   margin-right: 3rem;
 }
 .me {
-  max-height: 570px;
+  max-height: 300px;
   overflow: hidden;
 }
 .pic {
-  width: 85%;
+  margin-left: 10%;
+  width: 50%;
   height: 50%;
 }
 .right button {

@@ -2,25 +2,23 @@ import React, { useRef } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
 import emailjs from 'emailjs-com'
 import './FormStyle.css'
-const Form = () => {
 
-    const forms = useRef();
+const Form = () => {
+    const form = useRef();
     const submitHandler = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_4oul6sz', 'template_8sxm5tj', e.target, 'TIXD1_NiK4pE6yNxu')
+        emailjs.sendForm('service_4oul6sz', 'template_8sxm5tj', form.current, 'TIXD1_NiK4pE6yNxu')
             .then((result) => {
-                console.log(result.text);
                 toast.success("Form submitted successfully!");
-
             }, (error) => {
-                console.log(error.text);
+                console.log(error.message);
                 toast.error("Form submission failed. Please try again.");
             });
         e.target.reset();
     };
     return (
         <div className='form'>
-            <form onSubmit={submitHandler} ref={forms} autoComplete="off">
+            <form onSubmit={submitHandler} ref={form} autoComplete="off">
                 <label>Name</label>
                 <input type="text" name="name" placeholder='enter your name here'></input>
                 <label>Email</label>

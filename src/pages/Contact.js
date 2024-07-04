@@ -4,11 +4,12 @@ import Back2 from '../components/Back2';
 import Form from '../components/Form';
 import Registration from '../components/Registration';
 import Login from '../components/Login';
-const Contact=()=>{
-    return(
+
+const Contact = () => {
+    return (
         <div>
             <NavBar />
-            <Back2 heading="CONTACT" text="Please reach out to me"/>
+            <Back2 heading="CONTACT" text="Please reach out to me" />
             <Form />
             <Footer />
         </div>
