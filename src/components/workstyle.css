@@ -60,4 +60,20 @@
     grid-template-columns: 1fr;
     padding: 3rem 2rem;
   }
+  .project-title {
+    pad: 1.2rem;
+  }
+  .project-heading {
+    padding: 0.8rem 2rem;
+  }
+
+  .image {
+    height: 350px;
+  }
+  .btn-light {
+    align-items: center;
+    width: 70%;
+    margin-left: 0px;
+    right: 80px;
+  }
 }

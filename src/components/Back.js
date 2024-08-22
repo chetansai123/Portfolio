@@ -16,9 +16,9 @@ const Back = () => {
       <div className='context'>
         <p>MERN stack </p>
         <h1>Full Stack Developer</h1>
-        <div >
+        <div className='btns' >
           <Link to='/projects' className='btn btn-light'>Projects</Link>
-          <Link to='/contact' className='btn '>Contact Me</Link>
+          <Link to='/contact' className='btn'>Contact Me</Link>
         </div>
       </div>
     </div>

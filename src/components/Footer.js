@@ -8,15 +8,15 @@ const Footer = () => {
             <div className='footer-container'>
                 <div className='left'>
                     <div className='location' >
-                        <FaHome size={20} style={{ color: 'white' }} />
+                        <FaHome size={20} style={{ color: 'white' }} className='icon' />
                         <p>Hyderabad,India</p>
                     </div>
                     <div className='phone'>
-                        <FaPhone size={20} style={{ color: 'white' }} />
+                        <FaPhone size={20} style={{ color: 'white' }} className='icon' />
                         <p>+919381827307</p>
                     </div>
                     <div className='email'>
-                        <FaMailBulk size={20} style={{ color: 'white' }} />
+                        <FaMailBulk size={20} style={{ color: 'white' }} className='icon' />
                         <p>chetansai.official@gmail.com</p>
                     </div>
                 </div>
