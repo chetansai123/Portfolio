@@ -11,6 +11,9 @@
   height: 100%;
   width: 50%;
 }
+.left p {
+  text-align: justify;
+}
 .right {
   height: 80%;
   width: 50%;
@@ -40,9 +43,17 @@
     max-height: 400px;
     overflow: hidden;
   }
-  .pic {
+  .left {
     width: 100%;
-    height: 60vh;
+  }
+  .right {
+    width: 100%;
+  }
+  .pic {
+    width: 92%;
+    height: 35vh;
+    position: relative;
+    right: 20px;
   }
   .left h1 {
     text-align: left;
@@ -50,16 +61,21 @@
   .left p {
     font-weight: 250;
     font-size: 0.7;
-    text-align: left;
+    text-align: justify;
   }
-  .btn-light {
+  .right .btn-light {
     cursor: pointer;
-    width: 90%;
-    margin-left: 2rem;
-    padding-right: 1rem;
+    width: 50%;
+    padding: 0.5rem;
+    margin: 0rem 0rem 0rem 5rem;
   }
   .right button {
     text-align: center;
     margin: 1.5rem 1rem 2rem 0.5rem;
+  }
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }

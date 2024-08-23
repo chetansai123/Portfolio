@@ -46,11 +46,15 @@
 
 @media screen and (max-width: 800px) {
   .cert-container {
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 2rem 2rem;
+    object-fit: contain;
+    align-items: flex-start;
+  }
+  .cert-card {
+    left: 0%;
   }
   .cert-card div {
     margin-left: 0rem;
@@ -72,8 +76,9 @@
     width: 100%;
     font-size: 1rem;
   }
-  .btn-light {
-    width: 100%;
-    margin-left: 0;
+  .cert-card .btn-light {
+    width: 50%;
+    /* margin-left: 0; */
+    padding: 0.5rem;
   }
 }
